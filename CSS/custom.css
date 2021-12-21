@@ -1,0 +1,717 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(19, 17, 17);
+}
+
+
+/* ROOT */
+
+
+/* ============================= HEADER PART START ============================= */
+
+header {
+    margin: 0%;
+    width: 100%;
+    justify-content: center;
+}
+
+.icon-angle,
+.working,
+.icon-1,
+.icon-2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.text-logo {
+    text-transform: uppercase;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.outer-border,
+.location {
+    border: 1px solid rgb(204, 201, 201);
+    margin: 0px 40px 0px 40px;
+    padding-top: 10px;
+    width: 6vh;
+    height: 6vh;
+    text-align: center;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+
+.clock {
+    transform: rotate(0deg);
+}
+
+.text .a1 {
+    text-transform: uppercase;
+    color: black;
+}
+
+.text .a2 {
+    text-transform: capitalize;
+    color: rgb(116, 114, 114);
+}
+
+.icon-angle {
+    margin-left: 300px;
+}
+
+div>svg {
+    transform: rotate(0deg);
+    color: orange;
+}
+
+
+/* ============================= HEADER PART END ============================= */
+
+
+/* ============================= NAVBAR PART START ============================= */
+
+nav {
+    background-color: rgb(18, 5, 136);
+    padding: 5px;
+    color: white;
+}
+
+ul {
+    margin-top: 10px;
+    margin-left: 138px;
+}
+
+
+/* .nav-sections {
+    background-color: rgb(18, 5, 136);
+    color: black;
+    display: inline;
+} */
+
+.main-menu>li {
+    list-style-type: none;
+    display: inline;
+    margin: 20px 15px 0px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 40px 15px 0px 15px;
+}
+
+.nav-right {
+    float: right;
+    margin-right: 150px;
+}
+
+.nav-right>a {
+    margin: 0px 10px 0px 10px;
+}
+
+.main-menu {
+    color: red;
+}
+
+.ba-bar {
+    display: none;
+}
+
+.toggle {
+    background: none;
+}
+
+
+/* ============================= NAVBAR PART END ============================= */
+
+
+/* ============================= HERO PART START ============================= */
+
+
+/* .slider {
+    background-image: url(../IMAGE/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+}
+
+.text-slider h6 {
+    margin-top: 10%;
+} */
+
+.containers {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 90vh;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+    margin: 0%;
+    margin-bottom: 2px;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(../IMAGE/fabian-irsara-67l-QujB14w-unsplash.jpg);
+    }
+    25% {
+        background-image: url(../IMAGE/hikarinoshita-hikari-CL-lFjpteEY-unsplash\(1\).jpg);
+    }
+    75% {
+        background-image: url(../IMAGE/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg);
+    }
+    100% {
+        background-image: url(../IMAGE/viktor-yevenko-dRs6GoGCoXs-unsplash.jpg);
+    }
+}
+
+.outer {
+    margin: 0% 0% 0% 20%;
+}
+
+.texts {
+    padding-top: 20%;
+    font-size: 20px;
+    color: orange;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+div h2 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.hs-des {
+    color: white;
+    text-align: left;
+}
+
+.site-btn {
+    border-radius: 40px;
+    width: 18%;
+    padding: 10px;
+    background-color: orangered;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mob-btn {
+    display: none;
+}
+
+
+/* ============================= HERO PART END    ============================ */
+
+
+/* ======================== COUNTER SECTION PART START    ===================== */
+
+.container {
+    margin: 10px 0px 0px 200px;
+}
+
+.row {
+    display: flex;
+}
+
+.counter-section {
+    background-color: rgb(5, 5, 49);
+    padding: 10px;
+    justify-content: center;
+}
+
+.col-lg-7 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.big-icon {
+    font-size: 40px;
+    color: orangered;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    width: 5vw;
+    height: 10vh;
+    background-color: white;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
+}
+
+.col-lg-5 {
+    margin-top: 1em;
+}
+
+.big-icon i {
+    margin: 15px 0px 0px 10px;
+}
+
+.counter-content h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.counter-content p {
+    color: white;
+    margin-right: 20px;
+}
+
+.counter-content>i {
+    margin-right: 20px;
+    color: orangered;
+}
+
+.counter-content p {
+    text-align: left;
+}
+
+.counter {
+    display: flex;
+}
+
+.counter>div {
+    margin: 10px 40px 10px 40px;
+    color: #fff;
+    width: 1px;
+    height: 90px;
+}
+
+.conter-item {
+    width: 0px;
+    height: 0px;
+    background: none;
+}
+
+h4 {
+    font-size: 50px !important;
+    color: #fff;
+    font-weight: bolder;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+b {
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+
+p>i {
+    margin-right: 10px;
+}
+
+
+/* =========================COUNTER SECTION PART END      ===================== */
+
+
+/* ========================= SERVICES PART START     ===================== */
+
+.section-title {
+    text-align: center;
+}
+
+.container>div,
+p {
+    text-align: center;
+}
+
+.rows {
+    margin-top: 4em;
+}
+
+.spad {
+    margin-top: 50px !important;
+}
+
+.service-item {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.service-icon>img {
+    width: 50px;
+    height: auto;
+    margin-top: .5em;
+}
+
+.service-content {
+    margin: 0px 40px 10px 25px;
+}
+
+.text-center>p {
+    margin-top: 1em;
+    color: rgb(97, 96, 96);
+}
+
+.service-content>.h4 {
+    color: rgb(39, 35, 35)!important;
+    font-size: 25px !important;
+    text-align: left;
+    margin-left: 0%;
+    text-decoration: none !important;
+    padding-left: 0%;
+}
+
+.service-content>p {
+    text-align: justify;
+    color: rgb(95, 95, 95);
+}
+
+
+/* ========================= SERVICES PART END       ===================== */
+
+
+/* ========================= ENROLLMENT PART START     ===================== */
+
+.set-bg {
+    background-image: url(../IMAGE/luke-southern-9yCYGgPe5Kg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(58, 57, 57);
+    background-blend-mode: multiply;
+}
+
+.col-lg-56 {
+    margin: 7em 0em 3em 0em;
+}
+
+.col-lg-6>img {
+    margin: 7em 0em 3em 0em;
+    background-color: blue;
+    background-blend-mode: darken;
+}
+
+.text-white p {
+    color: #fff;
+}
+
+.text-white>p {
+    margin-top: 2em;
+}
+
+.section-title h3,
+.section-title p {
+    text-align: left;
+}
+
+.enroll-list {
+    margin-top: 4em;
+}
+
+.enroll-list-item {
+    margin-bottom: 4em;
+}
+
+.enroll-list-item h5,
+.enroll-list-item p {
+    margin-left: 6em;
+    text-align: justify;
+}
+
+.enroll-list-item h5 {
+    margin-left: 4.8em;
+}
+
+.enroll-list-item span {
+    float: left;
+}
+
+.enroll-list-item span {
+    background-color: rgb(241, 101, 49);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: .8em;
+}
+
+.enroll-list-item:after {
+    position: absolute;
+    content: '';
+    height: calc(100% - 45px);
+    left: 20px;
+    top: 48px;
+    border-left: 1px dashed #6c6e70;
+}
+
+.enroll-list-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.enroll-list-item:last-child:after {
+    display: none;
+}
+
+
+/* 
+.enroll-list-item span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    border-radius: 50px;
+    background: #f6783a;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+} */
+
+
+/* ========================= ENROLLMENT PART END     ===================== */
+
+
+/* ========================= COURSE PART START     ===================== */
+
+.sub-title h2 {
+    color: black;
+    font-size: 40px;
+}
+
+.course-thumb>img {
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    height: 250px;
+}
+
+.course-info h4 {
+    font-size: 20px !important;
+    text-align: center;
+    font-weight: normal;
+}
+
+.course-cat span {
+    background-color: rgb(240, 102, 52);
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    top: -10px;
+    position: relative;
+    color: #fff;
+}
+
+div .date {
+    color: orangered;
+}
+
+.cource-price {
+    color: orangered !important;
+}
+
+.course-info span {
+    color: rgb(119, 113, 113);
+    font-weight: normal;
+}
+
+.experience-counter {
+    background-image: url(../IMAGE/austin-poon-JO_S6ewBqAk-unsplash.jpg);
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+    background-size: cover;
+    padding: 90px 0px 90px 0px;
+    background-color: rgb(77, 72, 72);
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+.main-icon div i {
+    color: #fff;
+    font-size: 45px;
+    margin-right: .3em;
+    margin-top: .2em;
+}
+
+.main-icon div h1 {
+    color: rgb(245, 95, 40);
+    margin-bottom: 0px;
+}
+
+.main-icon span {
+    color: #fff;
+    margin-top: 0px;
+    top: -5px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+
+/* =========================  COURSE PART END           ===================== */
+
+
+/* =========================  OUR EVENT PART START      ===================== */
+
+.course-cat {
+    text-align: center;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
+
+.inner-icon i {
+    color: orangered;
+}
+
+.text-formate {
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+/* ========================= OUR EVENT PART END         ===================== */
+
+
+/* =========================  GALLERY SECTION START     ===================== */
+
+a img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.cross-design img {
+    width: 115%;
+    height: 190px;
+}
+
+.img-11 img {
+    width: 115%;
+    height: 140%;
+}
+
+.img-11-11 {
+    width: 500em;
+}
+
+.img-2 img {
+    width: 107%;
+    height: 51%;
+}
+
+.img-3 img {
+    width: 107%;
+    height: 44%;
+}
+
+.img-1 img {
+    width: 107%;
+    height: 95%;
+}
+
+a {
+    margin: 0px;
+}
+
+.img-1 svg {
+    color: orangered;
+    background-color: white;
+    font-size: 100px;
+    position: absolute;
+    top: -20%;
+}
+
+
+/* =========================  GALLERY SECTION END       ===================== */
+
+
+/* =========================  LATEST NEWS PART START       ===================== */
+
+.news {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.course-info .parent {
+    color: black;
+}
+
+.course-thumbs {
+    width: 50%;
+}
+
+.course-infos {
+    width: 50%;
+    height: auto;
+    margin: 0em 1em 1em 1em;
+    text-align: left;
+}
+
+.course-infos p {
+    text-align: justify;
+}
+
+.inner-icons i {
+    margin-right: 10px;
+}
+
+.course-infos h2 {
+    margin-top: -20px;
+    text-transform: none;
+}
+
+
+/* =========================  LATEST NEWS PART END       ===================== */
+
+
+/* =========================  SUNSCRIBED PART START       ===================== */
+
+.subscribed-part {
+    background-color: rgb(248, 248, 248);
+}
+
+.h1-p {
+    text-align: left;
+}
+
+.h1-p h1 {
+    font-size: 30px
+}
+
+input {
+    width: 100%;
+    padding: 20px 10px 20px 20px;
+    border-radius: 50px;
+    margin-right: 0px;
+    background-color: #fff;
+    border: none;
+    text-transform: capitalize;
+}
+
+div button {
+    position: relative;
+    top: -64px;
+    text-align: center;
+    padding: 10px 40px 24px 20px;
+    border-radius: 0px 50px 50px 0px;
+    margin-right: 0px;
+    margin-left: 345px;
+    background: none;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+.sub-part {
+    margin-right: 0px;
+}
+
+
+/* =========================  SUNSCRIBED PART END      ===================== */
+
+
+/* =========================  FOOTER PART START      ===================== */
+
+.text-black a {
+    color: black;
+}
+
+
+/* =========================  FOOTER PART END     ===================== */

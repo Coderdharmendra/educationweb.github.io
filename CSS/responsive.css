@@ -1,0 +1,232 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 780px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* header */
+    .icon-angle {
+        display: none;
+    }
+    .text-logo {
+        float: left;
+        margin-left: 0%;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    /* NAVBAR */
+    /* .main-menu {
+        box-sizing: border-box;
+        display: block;
+        background-color: rgb(9, 9, 97);
+        display: block;
+        float: left;
+        height: 10vh;
+    } */
+    .containerss>li {
+        display: block;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    .nav-right>a>svg {
+        float: right;
+        color: white;
+        margin: 10px 10px 0px 10px;
+    }
+    .nav-right {
+        margin-right: 0px;
+    }
+    .containers {
+        position: relative;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: auto;
+        animation: animate 16s ease-in-out infinite;
+        background-size: cover;
+        margin: 0%;
+    }
+    .ba-bar {
+        display: inline-block;
+        justify-content: right;
+        margin-left: 100px;
+        margin-top: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    ul {
+        display: none;
+    }
+    .toggle {
+        background: none;
+        text-decoration: none;
+        font-size: 25;
+    }
+    a:hover {
+        cursor: pointer;
+        background-color: cornsilk;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: sans-serif;
+    }
+    .nav-right {
+        float: none;
+        font-size: 20px;
+        width: 100%;
+    }
+    .nav-right a>svg {
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .containers {
+        margin: 0%;
+    }
+}
+
+
+/* ====================== SLIDER FOR IMAGE ======================= */
+
+@media only screen and (max-width:780px) {
+    .containers {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .outer {
+        margin-left: 20px;
+        font-weight: bold;
+        word-spacing: 2px;
+        letter-spacing: 1.5px;
+        text-align: left;
+    }
+    .hs-title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .hs-des {
+        margin-bottom: 30px;
+        font-weight: normal;
+    }
+    .texts {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    /* button */
+    .site-btn {
+        display: none;
+        background: none;
+        font-size: 10px;
+        width: 20px;
+    }
+    .site-btn a {
+        background-color: orangered;
+    }
+    .mob-btn {
+        background: none;
+        background-color: rgb(235, 107, 60);
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px 10px 20px;
+        display: block;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .mob-btn>a {
+        margin: 10px;
+    }
+}
+
+
+/* ====================== SLIDER FOR IMAGE ======================= */
+
+@media only screen and (max-width:780px) {
+    .big-icon {
+        float: left;
+        margin-left: 0%;
+        width: 30vw;
+        height: 8vh;
+        padding-top: 6px;
+        font-size: 25px;
+    }
+    .big-icon>i {
+        color: rgb(251, 98, 42);
+    }
+    .container {
+        margin: 0%;
+    }
+    .counter-content h2 {
+        font-size: 20px;
+    }
+    .counter-content i {
+        margin-left: -45px;
+        color: orangered;
+    }
+    .col-lg-5 {
+        margin: 1em 0em 1em 0em;
+    }
+    .counter-item h4 {
+        font-size: 30px !important;
+        color: #fff;
+        font-weight: bold;
+        padding-left: 25px;
+    }
+    .counter-item1 h4 {
+        font-size: 30px !important;
+        color: #fff;
+        font-weight: bold;
+        padding-left: 25px;
+    }
+    .counter-item1 {
+        width: 1px;
+        height: 70px;
+        background-color: #fff;
+    }
+    .counter>div {
+        margin: 10px 40px 10px 40px;
+        color: #fff;
+        width: 1px;
+        height: 70px;
+    }
+    .counter b {
+        font-size: 15px;
+    }
+    .section-title h3,
+    .section-title p {
+        text-align: center;
+    }
+    .service-item {
+        margin-bottom: 2em;
+    }
+}
+
+
+/* ========================= COURSE PART START     ===================== */
+
+@media only screen and (max-width:780px) {
+    .sub-title {
+        margin-bottom: 75px;
+    }
+    .sub-title h2 {
+        margin-top: 80px;
+        margin-bottom: 0%;
+    }
+}
+
+
+/* ========================= COURSE PART END       ===================== */
